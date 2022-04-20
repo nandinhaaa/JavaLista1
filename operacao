@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class operacao {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int numero;
+        System.out.print("Digite o valor do numero: ");
+        numero = in.nextInt();
+        in.nextLine();
+        if(numero%2==0)
+            System.out.println("\n par");
+        else
+            System.out.println("\n impar");
+    }
+
+}

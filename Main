@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main {
+public static void main (String[] args) {
+	operacao op = new operacao();
+	
+	Scanner entrada = new Scanner (System.in);
+	System.out.println("Qual o tamanho da lista: ");
+    int qtd = entrada.nextInt();
+    
+	
+}
+}
